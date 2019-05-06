@@ -1,0 +1,27 @@
+{
+  "private": true,
+  "name": "jax-nodejs",
+  "version": "0.0.1",
+  "description": "jax nodejs demo app",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/severinkilchhofer/jax-nodejs.git"
+  },
+  "author": "Severin Kilchhofer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/severinkilchhofer/jax-nodejs/issues"
+  },
+  "homepage": "https://github.com/severinkilchhofer/jax-nodejs#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "@types/express": "^4.16.1",
+    "nodemon": "^1.19.0"
+  }
+}
