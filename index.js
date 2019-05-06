@@ -1,8 +1,8 @@
 const express = require('express');
-const router = require('./todo');
+const todoRouter = require('./todo');
 
 const app = express();
 
-app.use('/todo', router);
+app.use('/todo', todoRouter);
 
 app.listen(8080);

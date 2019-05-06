@@ -1,12 +1,8 @@
-const Todo = require('../todo');
 const express = require('express');
+const controller = require('./todo.controller');
 
 const router = express.Router();
 
-const todos = [new Todo('Einkaufen', true), new Todo('Hausaufgaben machen', false)];
-
-router.get('/', (request, response) => {
-    response.send(todos);
-});
+router.get('/', controller.getAction);
 
 module.exports = router;
